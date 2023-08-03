@@ -3,8 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-size: 1.01rem;
   color: rgb(215, 215, 215);
+  font-weight: 500;
 }
 
 a{
@@ -17,7 +17,7 @@ hr {
 }
 
 body{
-  background-image: url(./img/backround-dark.avif);
+  background-image: url(./img/backround.jpg);
   background-size: contain;
 }
 

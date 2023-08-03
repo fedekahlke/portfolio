@@ -4,6 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-size: 1.01rem;
+  color: rgb(215, 215, 215);
 }
 
 a{
@@ -12,11 +13,11 @@ a{
 
 hr {
     height: 3px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 body{
-  background-image: url(./img/backround4.jpg);
+  background-image: url(./img/backround-dark.avif);
   background-size: contain;
 }
 
@@ -156,10 +157,11 @@ nav{
   list-style-type: none;
   padding: 0.6rem;
   margin: 4px;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(215, 215, 215);
   border-radius: 5px;
   border: 1px solid rgb(126, 126, 126);
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5); 
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+  color: black;
 }
 
 .skill-item:first-child {
@@ -168,6 +170,7 @@ nav{
   font-size: 1.2rem;
   background-color: transparent;
   box-shadow: none;
+  color: rgb(215, 215, 215);
 }
 
 .idiomas {
@@ -188,10 +191,11 @@ nav{
   list-style-type: none;
   padding: 0.6rem;
   margin: 4px;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(215, 215, 215);
   border-radius: 5px;
   border: 1px solid rgb(126, 126, 126);
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+  color: black;
 }
 
 .idioma-item:first-child {
@@ -200,6 +204,7 @@ nav{
   font-size: 1.2rem;
   background-color: transparent;
   box-shadow: none;
+  color: rgb(215, 215, 215);
 }
 
 .titulo-portfolio{
@@ -209,6 +214,7 @@ nav{
 .parrafo-portfolio {
   margin: 40px 20px 0 20px;
   text-align: center;
+
 }
 
 .articles-portfolio{
@@ -222,19 +228,21 @@ nav{
   margin: 25px;
   height: 12rem;
   width: 20rem;
-  background-color: rgb(214, 214, 214);
+  background-color: rgb(215, 215, 215);
   border-radius: 5px;
-  border: 1px solid rgb(110, 110, 110);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .titulo-article{
   margin-top: 1rem;
   text-align: center;
+  color: black;
 }
   
 .parrafo-article{
   margin: 1.5rem;
   text-align: center;
+  color: black;
 }
 
 .link-sitio{

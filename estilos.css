@@ -228,7 +228,7 @@ nav{
   margin: 25px;
   height: 12rem;
   width: 20rem;
-  background-color: rgb(195, 195, 195);
+  background-image: url(./img/backround-seccion.jpg);
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
